@@ -1,0 +1,21 @@
+/* nav styles */
+nav{
+    display: flex;
+}
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 60px;
+}
+/* shared styles */
+.text-primary{
+    color: #4E47FF;
+}
+nav ul li{
+    list-style: none;
+}
