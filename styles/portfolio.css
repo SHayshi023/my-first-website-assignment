@@ -103,38 +103,48 @@ main{
 .banner{
     flex: 1;
 }
-.users{
-    text-align: center;
-    padding: 50px 142px;
-    margin-top: 116px;
-    border-radius: 24px;
-    margin-bottom: 20px;
 
+.users-section {
+  background-color: white
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  
+}
 
+.users-container {
+  max-width: 900px;
+  width: 100%;
+  text-align: center;
+  background-color: #e9e9ff;
+  padding: 40px 20px;
+  border-radius: 24px;
 }
-.section-title{
-    font-weight: bold;
-    font-size: 38px;
-}
-.third-bg{
-    background-color: #6664a3;
-    
 
+.users-container h2 {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: #252432;
 }
-.user-items{
+
+.users-grid {
   display: flex;
   justify-content: space-around;
-  width: 856px;
+  flex-wrap: wrap;
+  gap: 40px;
 }
-.item-title{
-     font-size: 80px;
-     font-weight: bold;
-}
-.item-description{
-    font-size: 20px;
-    bottom: auto;
-    margin-bottom: 20px;
 
+.user-box h3 {
+  font-size: 80px;
+  font-weight: bold;
+  color: #4E47FF;
+  margin-bottom: 5px;
+}
+
+.user-box p {
+  font-size: 20px;
+  color: #000000;
 }
 .testimonial-section {
     padding: 60px 20px;
@@ -210,3 +220,202 @@ main{
     font-size: 12px;
     color: #B3B3B3;
   }
+  .focus-section {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+
+  .focus-container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .focus-section h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #000000;
+  }
+
+  .focus-section p {
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+
+  .focus-button {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #4E47FF;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    transition: background-color 0.3s ease;
+  }
+
+  .focus-button:hover {
+    background-color: #4E47FF;
+  }
+
+  .focus-image img {
+    max-width: 840;
+    height: 365;
+    border-radius: 48px;
+    
+  }
+ 
+
+
+
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid white;
+  overflow: hidden;
+  max-width: 1140px;
+  width: 100%;
+  background-color: white;
+}
+
+.left-side {
+  flex: 1;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.left-side h2 {
+  font-size: 80px;
+  color: #000000;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.right-side {
+  flex: 1;
+  background-color: #f9f9f9;
+  padding: 30px 20px;
+}
+
+.right-side form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.right-side label {
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.right-side input,
+.right-side textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  font-size: 20px;
+  resize: none;
+}
+
+.right-side textarea {
+  min-height: 80px;
+}
+
+.right-side button {
+  padding: 10px 20px;
+  background-color: #4E47FF;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: background-color 0.3s ease;
+}
+
+.right-side button:hover {
+  background-color: #4E47FF;
+}
+
+@media (max-width: 768px) {
+  .contact-wrapper {
+    flex-direction: column;
+  }
+
+  .left-side {
+    text-align: center;
+    padding: 30px 10px;
+  }
+
+  .right-side {
+    padding: 30px 10px;
+    min-height: 300px;
+  }
+
+  .right-side button {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+  }
+}
+.footer {
+  background-color: #FFFFFF;
+  padding: 60px 14px;
+  text-align: center;
+  border-top: 1px solid #FFFFFF ;
+}
+
+.footer-content {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  font-size: 100px;
+  color: #4E47FF;
+  font-weight: black;
+  margin-bottom: 15px;
+}
+
+.footer-description {
+  font-size: 16px;
+  color: #8987A1;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.footer-nav {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #8987A1;
+  font-size: 15px;
+  transition: color 0.3s;
+}
+
+.footer-nav a:hover {
+  color: #4E47FF;
+}
+  
+  
