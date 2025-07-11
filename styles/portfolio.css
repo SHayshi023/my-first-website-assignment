@@ -4,7 +4,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 10px 20px;
+    
 
 }
 
@@ -49,6 +50,7 @@ nav ul li{
 .hero{
     text-align: center;
     padding: 0px 20px;
+    margin-bottom: 30px;
     
   
 }
