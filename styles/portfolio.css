@@ -1,4 +1,5 @@
 /* nav styles */
+
 nav{
     display: flex;
     align-items: center;
@@ -50,7 +51,9 @@ nav ul li{
 }
 .hero{
     text-align: center;
-    padding: 0px 200px;
+    padding: 0px 20px;
+    
+  
 }
 .secondary-bg{
     background-image:url('../Assets/Hero-bg.png');
@@ -58,20 +61,32 @@ nav ul li{
     background-position: center;
     background-repeat: no-repeat;
     
+
+    
+    
 }
 header{
     background-size: cover;
     text-align: center;
     padding: 60px 20px;
     position: relative;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1440px;
+    justify-content: space-around;
+    
+    
+
+    
+
 }
 
 .action{
    background: none;
    display: flex;
    justify-content: center;
-   margin-top: 116px;
-   padding: 60px 20px;
+   margin-top: 100px;
+   padding: 40px 5px;
    align-items: center;
    gap: 40px;
     
@@ -105,20 +120,25 @@ main{
 }
 
 .users-section {
+  margin-top: 126px;
+  margin: o auto;
   background-color: white
   padding: 60px 20px;
   display: flex;
   justify-content: center;
   
+  
+  
 }
 
 .users-container {
-  max-width: 900px;
+  max-width: 1140px;
   width: 100%;
   text-align: center;
   background-color: #e9e9ff;
   padding: 40px 20px;
   border-radius: 24px;
+  
 }
 
 .users-container h2 {
@@ -132,7 +152,8 @@ main{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 20px;
+  
 }
 
 .user-box h3 {
@@ -150,6 +171,8 @@ main{
     padding: 60px 20px;
     text-align: center;
     background-color: #f9f9f9;
+    margin: o auto;
+    margin-top: 116px;
   }
 
   .testimonial-section h2 {
